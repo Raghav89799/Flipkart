@@ -19,5 +19,5 @@ class GetCustomerDetailsAddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Customer
         fields = ('first_name','last_name','mobile','age','country','city','dob')
-    
+
 
